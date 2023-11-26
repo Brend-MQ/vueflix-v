@@ -10,7 +10,7 @@ export default function App(){
     <BrowserRouter>
       <Header></Header>
       <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/vueflix-v" element={<Home/>}/>
           <Route path="/page" element={<Page/>}/>
           <Route path="/search" element={<Query/>}/>
       </Routes>
